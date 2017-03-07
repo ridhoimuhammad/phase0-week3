@@ -6,7 +6,7 @@ function numberSum(num) {
     return num * numberSum(num - 1);
   }
 }
-console.log(numberSum(5)); // 5 + 4 + 3 + 2 + 1 = 15
+console.log(numberSum(5)); // 5 x 4 x 3 x 2 x 1 = 15
 
 function factorial2(num1,num2){
  if(num1 <= 1){
