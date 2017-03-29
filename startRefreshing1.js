@@ -1,4 +1,3 @@
-////////////////////
 // startRefreshing1.js
 ///////////////////////////
 
@@ -15,11 +14,11 @@ console.log(satu(5));
 function dua(x,y){
   if(x <= 1){
     return 1 ;
-  }else {
-     for(i; i > 0 ;  i-= y){
- var total = total * i;
-   }
-   return total;
-
+  }else{
+    for(; x>y; x--){
+     // console.log(x);
+     var hasil = x-y*y;
+    } return hasil;
+  }
 }
 console.log(dua(12,5))
